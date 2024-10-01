@@ -3,8 +3,11 @@ Python Script used to attempt a brute force timing attack against a password pro
 This Python script performs a timing-based brute-force attack on an external binary program (vault.o). The program guesses a password character by character using the time it takes for each guess to be processed by the binary. By measuring the response time for each character, it determines the correct password one character at a time.
 
 Features
+
 -Brute-force attack based on timing: The script uses statistical timing analysis to find the correct password for the vault.o binary.
+
 -Logging: All password guesses, results, and errors are logged to a file (timing_attack_log.txt) as well as printed to the console.
+
 -Customization: You can modify the maximum password length and the number of trials for each password guess.
 
 How It Works
