@@ -1,4 +1,4 @@
-# timing-attack
+# Timing-attack
 Python Script used to attempt a brute force timing attack against a password protected binary. 
 This Python script performs a timing-based brute-force attack on an external binary program (vault.o). The program guesses a password character by character using the time it takes for each guess to be processed by the binary. By measuring the response time for each character, it determines the correct password one character at a time.
 
